@@ -1,0 +1,44 @@
+# ============================================
+# ClimaSense — Project Dependencies
+# ============================================
+# This is a Node.js/React project.
+# Dependencies are managed via package.json.
+# Use `npm install` to install all dependencies.
+# ============================================
+
+# --- Runtime Dependencies ---
+react==19.2.4                  # UI framework
+react-dom==19.2.4              # React DOM renderer
+react-is==19.2.5               # React type checking utilities
+recharts==3.8.1                # Charting library (24h forecast chart)
+leaflet==1.9.4                 # Interactive map library
+react-leaflet==5.0.0           # React wrapper for Leaflet.js
+
+# --- Dev Dependencies ---
+vite==8.0.4                    # Build tool & dev server
+@vitejs/plugin-react==6.0.1   # React plugin for Vite
+eslint==9.39.4                 # Code linting
+eslint-plugin-react-hooks==7.0.1
+eslint-plugin-react-refresh==0.5.2
+
+# --- External APIs (Free Tier) ---
+# OpenWeatherMap API — https://openweathermap.org/api
+#   - /weather endpoint (current conditions)
+#   - /forecast endpoint (5-day / 3-hour forecast)
+#   - Free: 60 calls/min, no credit card required
+
+# --- CDN Resources ---
+# Google Fonts — Inter (typography)
+# CartoDB Dark Tiles (map tiles, free)
+# OpenWeatherMap Icons (weather icons, free)
+
+# ============================================
+# INSTALLATION:
+#   npm install
+#
+# RUN DEV SERVER:
+#   npm run dev
+#
+# BUILD FOR PRODUCTION:
+#   npm run build
+# ============================================
